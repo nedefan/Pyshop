@@ -4,8 +4,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse ('Hello world')
+    return HttpResponse('Hello world')
 
 
 def new(request):
-    return HttpResponse ('New product')
+    return HttpResponse('New products')
